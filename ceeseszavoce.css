@@ -1,0 +1,45 @@
+body,header{
+  background:yellowgreen;
+}
+h1{
+  color:brown;
+  text-align: center;
+}
+.tab{
+    overflow: hidden;
+    padding:3em;
+    }
+    
+    .tab button {
+    background-color: blueviolet;
+    float:left;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: crimson;
+    cursor: pointer;
+    margin-left:0.5em;
+    padding: 14px 16px 16px 14px;
+    transition: 0.3s;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .tab button:hover {
+    position: left;
+    background-color: green;
+  }
+  
+  .tab button.active {
+    position: left;
+    background-color: rgb(158, 145, 152);
+  }
+  
+  .sadrzajtaba {
+    align-items: center;
+    display: none;
+    padding: 3px 3px;
+    border: solid;
+    background-color: violet;
+    }
